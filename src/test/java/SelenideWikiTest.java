@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class SelenideWikiTest {
     @BeforeAll
-    static void beforeAll(){
+    static void prepareEnvironment(){
         Configuration.baseUrl = "https://github.com";
     }
 
