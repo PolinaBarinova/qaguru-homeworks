@@ -1,5 +1,5 @@
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.DragAndDropOptions;
+package selenide;
+
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
